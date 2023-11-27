@@ -134,7 +134,9 @@ Use the following code to bin the per_school_summary.
 size_bins = [0, 1000, 2000, 5000]
 labels = ["Small (<1000)", "Medium (1000-2000)", "Large (2000-5000)"]
 
+
 Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 
 Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
+### NOTES:  Used helped from colleagues and from the panda python documentations and stackoverflow.   There are a couple errors and could use some better formatting but the data is all correct.
